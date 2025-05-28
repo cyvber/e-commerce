@@ -1,0 +1,152 @@
+.product-page {
+    display: flex;
+    gap: 3rem;
+    padding: 16rem 6rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .product-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .main-image img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .image-carousel {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+  }
+  
+  .image-carousel img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 4px;
+  }
+  
+  .image-carousel img.active {
+    border-color: #333;
+  }
+  
+  .product-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .brand {
+    font-size: 14px;
+    color: #888;
+    text-transform: uppercase;
+  }
+  
+  .product-name {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .rating {
+    font-size: 18px;
+    color: #f5a623;
+  }
+  
+  .review-count {
+    margin-left: 8px;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 12px 0;
+  }
+  .color-variants {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .color-wrapper {
+    display: inline-block;
+    padding: 4px; /* space between color and border */
+    border-radius: 6px;
+  }
+  
+  .color-wrapper.selected-color {
+    border: 1px solid rgb(29, 29, 29);
+  }
+  
+  .color-square {
+    width: 26px;
+    height: 26px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 1px rgba(169, 169, 169, 0.8);
+  }
+  
+  
+  .color,
+  .sizes {
+    font-size: 16px;
+  }
+  
+  .size-options {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .size-wrapper {
+    display: inline-block;
+    padding: 4px; 
+    border-radius: 6px;
+    
+    cursor: pointer;
+  }
+  
+  .size-wrapper.selected-size {
+    border: 1px solid black;
+    
+  }
+  
+  .size-box {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 4px 1px rgba(169, 169, 169, 0.8);
+  }
+  .disabled-size {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+  
+  
+  .add-to-cart {
+    margin-top: 24px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  

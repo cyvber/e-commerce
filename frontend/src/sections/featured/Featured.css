@@ -1,0 +1,47 @@
+.featured-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .featured-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #222;
+  }
+  
+  .featured-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    justify-items: center;
+  }
+  
+  .gender-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  
+  .gender-buttons button {
+    padding: 6px 12px;
+    border: 1px solid #333;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.2s ease;
+  }
+  
+  .gender-buttons button:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  .gender-buttons button.active {
+    background-color: #333;
+    color: white;
+  }
+  

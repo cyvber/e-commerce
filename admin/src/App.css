@@ -1,0 +1,15 @@
+/* App.css or index.css (depending on structure) */
+
+.app-container {
+    display: flex;
+  }
+  
+  /* Main content area pushed right by the width of sidebar */
+  .main-content {
+    margin-left: 24rem; /* Equal to .sidebar width */
+    padding: 2rem;
+    width: calc(100% - 24rem);
+    min-height: 100vh;
+    /* background-color: #f4f4f4; */
+  }
+  

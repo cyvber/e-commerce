@@ -1,0 +1,37 @@
+# Root-level
+node_modules/
+.env
+.DS_Store
+
+# Log files
+*.log
+
+# OS-specific
+Thumbs.db
+
+# npm package logs
+npm-debug.log*
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Dependency folders for each subproject
+admin/node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Environment files
+admin/.env
+frontend/.env
+backend/.env
+
+# Build output (Vite and possibly others)
+admin/dist/
+frontend/dist/
+backend/dist/
+
+# Optional: if you're using coverage tools or temporary data
+coverage/
+tmp/
+.cache/
